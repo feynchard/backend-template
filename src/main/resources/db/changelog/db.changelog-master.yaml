@@ -1,0 +1,8 @@
+databaseChangeLog:
+- include:
+    file: 001-create_table-system_user.sql
+    relativeToChangelogFile: true
+
+- include:
+      file: 002-create_table-goods.sql
+      relativeToChangelogFile: true
